@@ -90,7 +90,7 @@ Using Nauta:
 Update paths to auc_calculate.py, data_dir, train_label, validation_label, weights_file accordingly.
 
 ```
-nctl exp submit --name ai-rad-auc_calculate -t multinode-tf-training-horovod /path/to/ai-radiologist/auc_calculate.py -- --data_dir='/mnt/output/home/data/ai-radiologist/images_all/' --train_label='/mnt/output/home/data/ai-radiologist' --validation_label='/mnt/output/home/data/ai-radiologist' --weights_file='/mnt/output/home/ai-rad-test/lr_0.001_bz_16_loss_0.206_epoch_01.h5'
+nctl exp submit --name ai-rad-auc-calculate -t multinode-tf-training-horovod /path/to/ai-radiologist/auc_calculate.py -- --data_dir='/mnt/output/home/data/ai-radiologist/images_all/' --train_label='/mnt/output/home/data/ai-radiologist' --validation_label='/mnt/output/home/data/ai-radiologist' --weights_file='/mnt/output/home/ai-rad-test/lr_0.001_bz_16_loss_0.206_epoch_01.h5'
 
 ```
 
