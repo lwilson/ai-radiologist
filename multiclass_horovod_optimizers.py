@@ -4,7 +4,7 @@ from __future__ import print_function
 import sys
 sys.path.append('/mnt/output/home/ai-radiologist')
 
-#print(sys.path)
+print(sys.path)
 
 import os
 import argparse
