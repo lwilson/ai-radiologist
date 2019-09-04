@@ -1,3 +1,5 @@
+# This is my fork of dellemc-hpc-ai's repo
+
 # AI Radiologist
 
 This is an implementation of CheXNet model which is a 121 layer convolutional neural network model(DenseNet121). The model helps to identify one or more thoracic pathologies from the 14 different diagnosis identified in the ChestXray14 frontal chest x-ray training data. Here, we also provide a way to perform distributed training across multiple nodes with the help of horovod.
